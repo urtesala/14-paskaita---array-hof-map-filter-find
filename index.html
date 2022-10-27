@@ -7,12 +7,21 @@
     <title>Javascript project</title>
     <link rel="stylesheet" href="./style/style.css" />
     <!-- itraukiu javascript -->
-    <script src="./js/main.js" defer></script>
+    <!-- <script src="./js/main.js" defer></script> -->
+    <script src="./js/postsCreateFilter.js" defer></script>
   </head>
 
   <body>
     <div class="container">
       <h1>Map</h1>
+
+      <fieldset>
+        <legend>filter by title</legend>
+        <input type="search" id="filter" placeholder="filter" />
+        <button id="filterBtn">Filter</button>
+      </fieldset>
+
+      <ul id="list1" class="list1"></ul>
     </div>
   </body>
 </html>
